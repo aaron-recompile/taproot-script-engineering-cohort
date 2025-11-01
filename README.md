@@ -93,18 +93,26 @@ Each lesson follows a consistent, student-friendly format:
 
 ## 🚀 How to Use These Materials
 
-### Course Schedule:
-- **Week 0**: Review the course outline and prepare
-- **Every Monday**: New lesson content is released
-- **Discord Q&A**: Use discussion prompts to start conversations
-- **Office Hours**: Review practice task solutions
+### Getting Started:
+- **All 8 lessons are available**: Complete course materials from fundamentals to advanced Taproot patterns
+- **Self-paced learning**: Study at your own pace with estimated durations per lesson (4-7 hours)
+- **Prerequisites**: Each lesson builds on previous ones - start with Lesson 1 and progress sequentially
+- **Bilingual support**: Most lessons available in both English and Chinese (indicated in lesson listings)
+
+### Course Structure:
+- **Lessons 1-2**: Bitcoin fundamentals (Keys, UTXO, P2PKH)
+- **Lessons 3-4**: Advanced scripting (P2SH, SegWit)
+- **Lessons 5-8**: Taproot mastery (Schnorr, Script Trees, Enterprise patterns)
+- Each lesson includes: objectives, concepts, code examples, practice tasks, and reading materials
 
 ### Learning Tips:
-- Complete each lesson's content in order
-- Complete practice tasks carefully (operations on testnet)
-- Actively participate in Discord discussions
-- Ask questions promptly on Discord when encountering problems
-- Refer to the *Mastering Taproot* book for deeper learning
+- **Complete lessons in order**: Each lesson builds on previous concepts
+- **Practice on testnet**: All code examples use Bitcoin testnet - safe to experiment
+- **Use both versions**: Read English version for technical terms, Chinese version for deeper understanding
+- **Follow along with code**: Copy and run the Python examples to see concepts in action
+- **Reference the book**: Use *Mastering Taproot* book chapters listed for each lesson for deeper dives
+- **Join discussions**: Use Discord discussion prompts to engage with the community
+- **Ask for help**: Office hours and Discord are available for questions and clarifications
 
 ---
 
