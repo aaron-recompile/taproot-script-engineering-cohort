@@ -10,26 +10,67 @@
 
 Welcome to the **Taproot Script Engineering Cohort**! This course contains the following structured learning materials:
 
-### 1. **Course Outline** (`taproot_cohort_outline.md`)
-- Complete 12-week curriculum overview
-- Weekly lesson topics and learning objectives
-- Prerequisites, tools, and assessment criteria
-- Helps you understand the overall course structure in advance
-
-### 2. **Lesson 1**: Keys and Addresses (`lesson-01-keys-and-addresses.md`)
+### 1. **Lesson 1**: Private Keys, Public Keys, and Taproot Address Encoding
 - Private keys, public keys, and address encoding
 - X-only public keys for Taproot
 - Bech32m encoding format
 - Complete Python code examples
 - Testnet practice tasks
-- Discord discussion prompts
+- Available in English and Chinese
 
-### 3. **Lesson 2**: Bitcoin Script Fundamentals (`lesson-02-bitcoin-script-p2pkh.md`)
+### 2. **Lesson 2**: Stack Operations and P2PKH Execution
 - UTXO model deep dive
 - Stack-based execution visualization
 - P2PKH transaction construction
 - Step-by-step script execution tracing
 - Real testnet transaction examples
+- Available in English and Chinese
+
+### 3. **Lesson 3**: P2SH Multi-signature and Time Locks
+- P2SH architecture and two-phase execution model
+- Building 2-of-3 multisig escrow contracts
+- CSV (CheckSequenceVerify) timelocks
+- Stack execution tracing with stack reset mechanism
+- Available in English and Chinese
+
+### 4. **Lesson 4**: SegWit Transactions and Witness Structure
+- Transaction malleability and SegWit solution
+- Witness segregation concept
+- P2WPKH (native SegWit) transaction construction
+- Transaction weight units and fee optimization
+- Foundation for Taproot
+- Available in English and Chinese
+
+### 5. **Lesson 5**: Taproot Introduction - Schnorr Signatures and Key Tweaking
+- Schnorr signature linearity and key aggregation
+- Key tweaking formula: P' = P + t × G
+- X-only public keys (32 bytes)
+- Simple key-path Taproot transactions
+- Payment unifiability and privacy
+- Available in English and Chinese
+
+### 6. **Lesson 6**: Single-Leaf Taproot Script Tree
+- Commit-Reveal pattern for Taproot contracts
+- Single-leaf script trees with hash locks
+- Control blocks (33 bytes for single-leaf)
+- Dual-path spending: key-path vs script-path
+- Privacy and efficiency comparison
+
+### 7. **Lesson 7**: Dual-Leaf Taproot Script Tree
+- Dual-leaf Merkle tree structure
+- TapLeaf and TapBranch hash calculation
+- Control blocks with Merkle proofs (65 bytes)
+- Lexicographic sorting for Merkle root
+- Multiple spending paths from same address
+- Available in English and Chinese
+
+### 8. **Lesson 8**: Four-Leaf Taproot Script Tree
+- Balanced four-leaf Merkle trees (two-level structure)
+- OP_CHECKSIGADD for efficient multisig (Tapscript innovation)
+- Extended control blocks (97 bytes) with multi-level Merkle proofs
+- Combining CSV timelocks with script paths
+- Five different spending paths comparison
+- Available in English and Chinese
 
 ---
 
@@ -118,9 +159,10 @@ Each lesson includes:
 ## 📝 Course Schedule
 
 ### Current Phase:
-1. ✅ Lessons 1 & 2 content has been released
+1. ✅ Lessons 1-8 content has been released
 2. ✅ All code examples have been verified on testnet
-3. ✅ Ready to start learning
+3. ✅ Both English and Chinese versions available for most lessons
+4. ✅ Ready to start learning
 
 ### During the Course:
 1. **Every Monday Morning**: New lesson content is released
@@ -128,10 +170,11 @@ Each lesson includes:
 3. **Office Hours**: Regular review of practice tasks
 4. **Practice Task Submissions**: Submit your assignments as required
 
-### Upcoming Lessons:
-- Lessons 3-12 will be released progressively in the same format
-- Each lesson corresponds to the relevant chapter of the *Mastering Taproot* book
-- Difficulty and depth will gradually increase
+### Lesson Status:
+- ✅ **Lessons 1-5**: Available in both English and Chinese
+- ✅ **Lessons 6-8**: Available in English (Chinese versions for 7-8)
+- 📚 Each lesson corresponds to the relevant chapter of the *Mastering Taproot* book
+- 📈 Difficulty and depth increase progressively from basics to advanced patterns
 
 ---
 
